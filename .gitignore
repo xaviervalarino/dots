@@ -1,0 +1,13 @@
+# Ignore bare Git repo used for dotfiles
+.cfg
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Dependency directories
+node_modules/
