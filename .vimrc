@@ -1,7 +1,12 @@
-" syntax on
+filetype plugin indent on
+syntax on
+set encoding=utf-8
 set number
-set noswapfile
 
+set nobackup noswapfile
+set nocompatible ignorecase smartcase
+
+set showmode showcmd ttyfast
 " clipboard
 " =========
 set clipboard=unnamed
@@ -32,8 +37,8 @@ set mouse=a " Enable mouse use in all modes
 
 " History & Search
 " ================
-set history=512  "Default history is 20
-set hlsearch     "Highlight search results
+set history=512         "Default history is 20
+set hlsearch incsearch  "Highlight search results
 
 " Windows
 " =======
