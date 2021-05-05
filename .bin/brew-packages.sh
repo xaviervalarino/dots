@@ -17,6 +17,7 @@ CORE=(
   the_silver_searcher
   tree
   utimer
+  zsh-completions
 )
 
 CASKS=(
