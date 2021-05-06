@@ -26,7 +26,8 @@ setopt HIST_IGNORE_DUPS
 setopt EXTENDED_HISTORY   
 
 #------------------------------------------
-
+# Init command-line fuzzy finder
+## https://github.com/junegunn/fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 #------------------------------------------
