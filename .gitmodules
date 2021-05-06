@@ -22,3 +22,6 @@
 [submodule ".vim/pack/plugins/start/vim-css-color"]
 	path = .vim/pack/plugins/start/vim-css-color
 	url = https://github.com/ap/vim-css-color
+[submodule "/Users/xvalarino/.vim/pack/plugins/start/ale"]
+	path = /Users/xvalarino/.vim/pack/plugins/start/ale
+	url = https://github.com/dense-analysis/ale
