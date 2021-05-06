@@ -1,0 +1,21 @@
+[submodule ".vim/pack/plugins/start/tabular"]
+	path = .vim/pack/plugins/start/tabular
+	url = https://github.com/godlygeek/tabular
+[submodule ".vim/pack/plugins/start/goyo"]
+	path = .vim/pack/plugins/start/goyo
+	url = https://github.com/junegunn/goyo.vim
+[submodule ".vim/pack/plugins/start/vim-commentary"]
+	path = .vim/pack/plugins/start/vim-commentary
+	url = https://github.com/tpope/vim-commentary
+[submodule ".vim/pack/plugins/start/vim-repeat"]
+	path = .vim/pack/plugins/start/vim-repeat
+	url = https://github.com/tpope/vim-repeat
+[submodule ".vim/pack/plugins/start/vim-speeddating"]
+	path = .vim/pack/plugins/start/vim-speeddating
+	url = https://github.com/tpope/vim-speeddating
+[submodule ".vim/pack/plugins/start/vim-surround"]
+	path = .vim/pack/plugins/start/vim-surround
+	url = https://github.com/tpope/vim-surround
+[submodule ".vim/pack/plugins/start/vim-vinegar"]
+	path = .vim/pack/plugins/start/vim-vinegar
+	url = https://github.com/tpope/vim-vinegar
