@@ -19,3 +19,6 @@
 [submodule ".vim/pack/plugins/start/vim-vinegar"]
 	path = .vim/pack/plugins/start/vim-vinegar
 	url = https://github.com/tpope/vim-vinegar
+[submodule ".vim/pack/plugins/start/vim-css-color"]
+	path = .vim/pack/plugins/start/vim-css-color
+	url = https://github.com/ap/vim-css-color
