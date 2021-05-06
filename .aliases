@@ -1,5 +1,6 @@
 # Alias for bare Git repo in $HOME for dotfiles 
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias cfg="config"
 
 alias ls="ls -Gh"
 alias ql="qlmanage -p"
