@@ -1,5 +1,5 @@
 # Alias for bare Git repo in $HOME for dotfiles 
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 alias ls="ls -Gh"
 alias ql="qlmanage -p"
