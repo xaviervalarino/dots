@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-# Setup for stroing doftiles in a bare Git repository
+# Setup for storing doftiles in a bare Git repository
 # https://www.atlassian.com/git/tutorials/dotfiles
 
 git init --bare "$HOME"/.cfg
