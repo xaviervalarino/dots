@@ -37,9 +37,17 @@ set mouse=a " Enable mouse use in all modes
 
 " History & Search
 " ================
-set history=512         "Default history is 20
+set history=5000        "Default history is 20
 set hlsearch incsearch  "Highlight search results
 
+" Persistent Undo
+"================
+
+set undofile                " Save undo's after file closes
+set undodir=~/.vim/undo     " Directory where Undo history file are saved
+                            " NOTE! Vim will not create this dir
+set undoreload=10000        " Max number lines to save on a buffer reload
+set undolevels=1000         " Max number of set changes that can be undone
 " Windows
 " =======
 set splitright splitbelow
@@ -80,4 +88,3 @@ let g:ale_sign_error = '✘'
 let g:ale_sign_warning = '⚠'
 highlight ALEErrorSign ctermbg=NONE ctermfg=red
 highlight ALEWarningSign ctermbg=NONE ctermfg=yellow
-
