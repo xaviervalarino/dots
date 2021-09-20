@@ -51,4 +51,11 @@ PROMPT='%(1j.[%j] .)%(?.%F{magenta}.%F{red})${PURE_PROMPT_SYMBOL:-❯}%f '
 #------------------------------------------
 # Ruby
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-export PATH="/usr/local/sbin:$PATH"
+PATH="/usr/local/sbin:$PATH"
+
+
+#------------------------------------------
+# Personal scripts
+PATH="$PATH:$HOME/scripts"
+
+export PATH
