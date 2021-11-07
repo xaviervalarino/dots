@@ -5,7 +5,7 @@ alias cfg="config"
 alias ls="ls -Gh"
 alias ql="qlmanage -p"
 alias g="git"
-alias reload="source ~/.profile"
+alias reload="exec zsh"
 alias pomodoro="utimer -t 25s && say 'beep boop, times up'"
 
 function ps_time() {
@@ -14,3 +14,5 @@ function ps_time() {
 }
 
 alias ps_time=ps_time
+
+alias vim=nvim
