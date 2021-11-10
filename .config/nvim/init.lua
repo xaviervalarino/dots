@@ -28,6 +28,7 @@ require 'paq' {
   'tpope/vim-surround';
   'lukas-reineke/indent-blankline.nvim';
   'nvim-treesitter/nvim-treesitter';
+  'nvim-treesitter/playground';
   'windwp/nvim-ts-autotag';
   'nvim-telescope/telescope.nvim';
   'neovim/nvim-lspconfig';
