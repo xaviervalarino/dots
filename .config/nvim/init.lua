@@ -27,7 +27,7 @@ require 'paq' {
   'tpope/vim-commentary';
   'tpope/vim-surround';
   'lukas-reineke/indent-blankline.nvim';
-  'nvim-treesitter/nvim-treesitter';
+  { 'nvim-treesitter/nvim-treesitter', run=function() vim.cmd('TSUpdate') end};
   'nvim-treesitter/playground';
   'windwp/nvim-ts-autotag';
   'nvim-telescope/telescope.nvim';
