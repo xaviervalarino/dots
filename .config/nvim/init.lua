@@ -43,6 +43,7 @@ require 'paq' {
   'kyazdani42/nvim-web-devicons';
   'folke/tokyonight.nvim';
   'folke/zen-mode.nvim';
+  'rafamadriz/friendly-snippets';
 }
 
 vim.cmd[[colorscheme tokyonight]]
