@@ -1,5 +1,9 @@
 # Alias for bare Git repo in $HOME for dotfiles 
-alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+# TODO: how to get this to complete both git commands and filepath?
+config() {
+  git --git-dir=$HOME/.cfg/ --work-tree=$HOME "$@"
+}
+# alias config="git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 alias cfg="config"
 
 alias ls="ls -Gh"
