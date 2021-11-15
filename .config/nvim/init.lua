@@ -1,6 +1,7 @@
 local set = vim.opt
 local global = vim.g
 local window = vim.wo
+local cmd = vim.cmd
 
 set.number = true
 set.termguicolors = true
@@ -56,7 +57,7 @@ require 'paq' {
   'tpope/vim-commentary';
   'tpope/vim-surround';
   'lukas-reineke/indent-blankline.nvim';
-  { 'nvim-treesitter/nvim-treesitter', run=function() vim.cmd('TSUpdate') end};
+  { 'nvim-treesitter/nvim-treesitter', run=function() cmd('TSUpdate') end};
   'nvim-treesitter/playground';
   'windwp/nvim-ts-autotag';
   'nvim-telescope/telescope.nvim';
