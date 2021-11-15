@@ -1,21 +1,50 @@
-local opt = vim.opt
+local set = vim.opt
+local global = vim.g
+local window = vim.wo
 
-opt.number = true
-opt.termguicolors = true
-opt.numberwidth =  5 -- make the line number gutter wider
-opt.linebreak = true
+set.number = true
+set.termguicolors = true
+-- set.numberwidth =  5 -- make the line number gutter wider
+set.linebreak = true
+
+set.mouse = 'a'
+
+set.breakindent = true
+set.relativenumber = true
+set.number = true
+
+
+-- leave buffers open in the background
+set.hidden = true
+
+-- global.noerrorbells = true
+-- set.nowrap = true
+
+set.ignorecase = true
+set.smartcase = true
+
+-- turn off swap and turn on undo history
+set.swapfile = false
+set.undofile = true
+
+set.incsearch = true
+set.ignorecase = true
+set.smartcase = true
+
+window.signcolumn = 'yes'
 
 -- tabs
-opt.tabstop = 2
-opt.shiftwidth = 2
-opt.softtabstop = 2 opt.smartindent = true
-opt.expandtab = true
+set.tabstop = 2
+set.shiftwidth = 2
+set.softtabstop = 2
+set.smartindent = true
+set.expandtab = true
 
 -- window splits
-opt.splitbelow = true
-opt.splitright = true
+set.splitbelow = true
+set.splitright = true
 
-vim.o.completeopt = 'menu,menuone,noselect'
+global.completeopt = 'menu,menuone,noselect'
 
 -- Packages ----------------------------
 
