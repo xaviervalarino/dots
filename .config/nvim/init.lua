@@ -76,9 +76,6 @@ require 'paq' {
   'rafamadriz/friendly-snippets';
 }
 
-vim.cmd[[colorscheme tokyonight]]
-vim.g.tokyonight_hide_inactive_statusline = true
-
 -- Package Settings --------------------
 
 require 'zen-mode'.setup {}
