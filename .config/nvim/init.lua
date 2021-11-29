@@ -5,7 +5,6 @@ local cmd = vim.cmd
 
 set.number = true
 set.termguicolors = true
--- set.numberwidth =  5 -- make the line number gutter wider
 set.linebreak = true
 
 set.mouse = 'a'
@@ -19,7 +18,6 @@ set.number = true
 set.hidden = true
 
 -- global.noerrorbells = true
--- set.nowrap = true
 
 set.ignorecase = true
 set.smartcase = true
