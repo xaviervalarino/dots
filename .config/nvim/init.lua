@@ -3,57 +3,53 @@ local global = vim.g
 local window = vim.wo
 local cmd = vim.cmd
 
-set.number = true
 set.termguicolors = true
 set.linebreak = true
 
 set.mouse = 'a'
 
+-- Left column -------------------------
 set.breakindent = true
 set.relativenumber = true
 set.number = true
-
--- Show partial off-screen results in preview window for :substitute
-set.inccommand = 'split'
-
--- leave buffers open in the background
-set.hidden = true
+window.signcolumn = 'yes'
 
 -- leader key
 vim.api.nvim_set_keymap('', '<Space>', '<Nop>', { noremap = true, silent = true })
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
--- global.noerrorbells = true
 
+-- Search ------------------------------
 set.ignorecase = true
 set.smartcase = true
+-- Show partial off-screen results in preview window for :substitute
+set.inccommand = 'split'
 
--- turn off swap and turn on undo history
+
+-- Save / Swap / Undo ------------------
+-- Leave buffers open in the background
+set.hidden = true
+-- Turn off swap and turn on undo history
 set.swapfile = false
 set.undofile = true
 
-set.incsearch = true
-set.ignorecase = true
-set.smartcase = true
 
-window.signcolumn = 'yes'
-
--- tabs
-set.tabstop = 2
+-- Tabs --------------------------------
 set.shiftwidth = 2
 set.softtabstop = 2
 set.smartindent = true
 set.expandtab = true
 
--- window splits
+-- Window splits -----------------------
 set.splitbelow = true
 set.splitright = true
 
+-- Completion --------------------------
 global.completeopt = 'menu,menuone,noselect'
 
--- Packages ----------------------------
 
+-- Packages ----------------------------
 require 'paq' {
   'savq/paq-nvim';
   'nvim-lua/plenary.nvim';   -- dependency of git signs & telescope
@@ -82,7 +78,6 @@ require 'paq' {
   { 'folke/which-key.nvim', run = function() require'which-key'.setup {} end };
   { 'numToStr/Comment.nvim', run = function() require'Comment'.setup {} end };
 }
-
 
 -- Package Config --------------------
 
