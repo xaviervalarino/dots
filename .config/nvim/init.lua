@@ -87,3 +87,4 @@ require 'paq' {
 -- Package Config --------------------
 
 require 'rc.completion'
+require 'rc.colorscheme'
