@@ -78,6 +78,8 @@ require 'paq' {
   'folke/tokyonight.nvim';
   { 'folke/zen-mode.nvim', run = function() require'zenmode'.setup {} end };
   'rafamadriz/friendly-snippets';
+  'ThePrimeagen/harpoon';
+  { 'folke/which-key.nvim', run = function() require'which-key'.setup {} end };
   { 'numToStr/Comment.nvim', run = function() require'Comment'.setup {} end };
 }
 
