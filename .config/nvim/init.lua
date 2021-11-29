@@ -57,7 +57,6 @@ require 'paq' {
   'nvim-lua/plenary.nvim';   -- dependency of git signs & telescope
   { 'windwp/nvim-autopairs', run = function() require 'nvim-autopairs'.setup {} end };
   'lewis6991/gitsigns.nvim';
-  'tpope/vim-commentary';
   'tpope/vim-surround';
   'lukas-reineke/indent-blankline.nvim';
   { 'nvim-treesitter/nvim-treesitter', run = function() cmd('TSUpdate') end };
@@ -77,6 +76,7 @@ require 'paq' {
   'folke/tokyonight.nvim';
   { 'folke/zen-mode.nvim', run = function() require'zenmode'.setup {} end };
   'rafamadriz/friendly-snippets';
+  { 'numToStr/Comment.nvim', run = function() require'Comment'.setup {} end };
 }
 
 
