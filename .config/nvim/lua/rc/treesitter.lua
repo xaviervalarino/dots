@@ -9,6 +9,7 @@ require 'nvim-treesitter.configs'.setup {
     enable = true
   },
   ensure_installed = {
+    'bash',
     'css',
     'html',
     'javascript',
