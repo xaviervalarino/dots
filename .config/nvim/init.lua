@@ -14,11 +14,6 @@ set.relativenumber = true
 set.number = true
 window.signcolumn = 'yes'
 
--- leader key
-vim.api.nvim_set_keymap('', '<Space>', '<Nop>', { noremap = true, silent = true })
-vim.g.mapleader = ' '
-vim.g.maplocalleader = ' '
-
 
 -- Search ------------------------------
 set.ignorecase = true
@@ -86,4 +81,5 @@ require 'rc.colorscheme'
 require 'rc.git-signs'
 require 'rc.indent-blankline'
 require 'rc.language-server'
+require 'rc.mappings'
 require 'rc.treesitter'
