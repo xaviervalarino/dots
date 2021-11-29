@@ -13,6 +13,8 @@ set.breakindent = true
 set.relativenumber = true
 set.number = true
 
+-- Show partial off-screen results in preview window for :substitute
+set.inccommand = 'split'
 
 -- leave buffers open in the background
 set.hidden = true
