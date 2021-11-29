@@ -89,3 +89,4 @@ require 'paq' {
 require 'rc.completion'
 require 'rc.colorscheme'
 require 'rc.git-signs'
+require 'rc.indent-blankline'
