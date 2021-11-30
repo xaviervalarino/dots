@@ -51,6 +51,7 @@ require 'paq' {
   { 'windwp/nvim-autopairs', run = function() require 'nvim-autopairs'.setup {} end };
   'lewis6991/gitsigns.nvim';
   'tpope/vim-surround';
+  'tpope/vim-fugitive';
   'lukas-reineke/indent-blankline.nvim';
   { 'nvim-treesitter/nvim-treesitter', run = function() cmd('TSUpdate') end };
   'nvim-treesitter/playground';
