@@ -12,7 +12,7 @@ HISTSIZE=10000
 ## Save history after logout
 SAVEHIST=10000
 ## History file
-HISTFILE=~/.zhistory
+HISTFILE="$XDG_DATA_HOME/zsh/history"
 ## Append into history file
 setopt INC_APPEND_HISTORY
 ## Save only one command if 2 common are same and consistent

@@ -1,11 +1,11 @@
 source $HOME/.aliases
 
 # PATH
+XDG_CONFIG_HOME="$HOME/.config"
+XDG_DATA_HOME="$HOME/.local/share"
+
 # Add Rust applications to path
 PATH=$PATH:$HOME/.cargo/bin
-
-# CONFIGS
-XDG_CONFIG_HOME=$HOME/.config
 
 # set colorscheme for `bat` command
 BAT_THEME="zenburn"
