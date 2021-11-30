@@ -1,5 +1,5 @@
 source $HOME/.profile
-                
+
 #------------------------------------------
 # Activate zsh completions
 autoload -Uz compinit
