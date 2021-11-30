@@ -41,3 +41,8 @@ promptinit
 zstyle :prompt:pure:git:branch color cyan
 prompt pure
 PROMPT='%(1j.[%j] .)%(?.%F{magenta}.%F{red})${PURE_PROMPT_SYMBOL:-❯}%f '
+
+# Fix for $EDITOR -- set zsh to use emacs style
+# keyboard mappings for command-line editing
+# e.g., <CTRL+P> to go back in history
+bindkey -e

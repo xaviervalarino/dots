@@ -18,3 +18,4 @@ PATH="$PATH:$HOME/.local/tools/lua-language-server/bin/macOS"
 PATH="$PATH:$HOME/scripts"
 
 BAT_THEME="zenburn"
+EDITOR=/usr/local/bin/nvim
