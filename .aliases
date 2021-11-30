@@ -10,13 +10,11 @@ alias ls="ls -Gh"
 alias ql="qlmanage -p"
 alias g="git"
 alias reload="exec zsh"
+alias vim="nvim"
 alias pomodoro="utimer -t 25s && say 'beep boop, times up'"
 
 function ps_time() {
   pid=$(pgrep -i "$1")
   ps -p "$pid" -o etime=
 }
-
-alias ps_time=ps_time
-
-alias vim=nvim
+alias ps_time="ps_time"

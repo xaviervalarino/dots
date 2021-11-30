@@ -4,15 +4,14 @@ source $HOME/.aliases
 XDG_CONFIG_HOME="$HOME/.config"
 XDG_DATA_HOME="$HOME/.local/share"
 
-# Add Rust applications to path
-PATH=$PATH:$HOME/.cargo/bin
-
-# set colorscheme for `bat` command
-BAT_THEME="zenburn"
+# Set up Rust
+PATH="$PATH:$HOME/.cargo/bin"
 
 # Ruby
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-PATH="/usr/local/sbin:$PATH"
+PATH="$PATH:/usr/local/sbin"
 
 # Personal scripts
 PATH="$PATH:$HOME/scripts"
+
+BAT_THEME="zenburn"
