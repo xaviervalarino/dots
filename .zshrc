@@ -8,11 +8,11 @@ compinit
 #------------------------------------------
 # History
 ## Set history size
-export HISTSIZE=10000
+HISTSIZE=10000
 ## Save history after logout
-export SAVEHIST=10000
+SAVEHIST=10000
 ## History file
-export HISTFILE=~/.zhistory
+HISTFILE=~/.zhistory
 ## Append into history file
 setopt INC_APPEND_HISTORY
 ## Save only one command if 2 common are same and consistent
@@ -41,16 +41,3 @@ promptinit
 zstyle :prompt:pure:git:branch color cyan
 prompt pure
 PROMPT='%(1j.[%j] .)%(?.%F{magenta}.%F{red})${PURE_PROMPT_SYMBOL:-❯}%f '
-
-
-#------------------------------------------
-# Ruby
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-PATH="/usr/local/sbin:$PATH"
-
-
-#------------------------------------------
-# Personal scripts
-PATH="$PATH:$HOME/scripts"
-
-export PATH

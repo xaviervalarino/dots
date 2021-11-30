@@ -4,8 +4,15 @@ source $HOME/.aliases
 # Add Rust applications to path
 PATH=$PATH:$HOME/.cargo/bin
 
-# EXPORTS
-export XDG_CONFIG_HOME=$HOME/.config
+# CONFIGS
+XDG_CONFIG_HOME=$HOME/.config
 
 # set colorscheme for `bat` command
-export BAT_THEME="zenburn"
+BAT_THEME="zenburn"
+
+# Ruby
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+PATH="/usr/local/sbin:$PATH"
+
+# Personal scripts
+PATH="$PATH:$HOME/scripts"
