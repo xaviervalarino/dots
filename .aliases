@@ -18,3 +18,5 @@ function ps_time() {
   ps -p "$pid" -o etime=
 }
 alias ps_time="ps_time"
+
+# vi:filetype=sh
