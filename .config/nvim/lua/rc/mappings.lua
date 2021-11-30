@@ -48,16 +48,16 @@ cmd[[
 ]]
 
 -- Moving text
-map('n', '<A-j>', ':m .+1<CR>==', { noremap = true})
-map('n', '<A-k>', ':m .-2<CR>==', { noremap = true})
-map('i', '<A-j>', '<Esc>:m .+1<CR>==gi', { noremap = true})
-map('i', '<A-k>', '<Esc>:m .-2<CR>==gi', { noremap = true})
-map('v', '<A-j>', ':m \'>+1<CR>gv=gv', { noremap = true})
-map('v', '<A-k>', ':m \'<-2<CR>gv=gv', { noremap = true})
+map('n', '<A-j>', ':m .+1<CR>==')
+map('n', '<A-k>', ':m .-2<CR>==')
+map('i', '<A-j>', '<Esc>:m .+1<CR>==gi')
+map('i', '<A-k>', '<Esc>:m .-2<CR>==gi')
+map('v', '<A-j>', ':m \'>+1<CR>gv=gv')
+map('v', '<A-k>', ':m \'<-2<CR>gv=gv')
 
 -- Stay where yah are, star
-map('n', '*', '*N', {noremap = true})
+map('n', '*', '*N')
 
 -- Change word then replace other occurences with `.` (by using cgn)
-map('n', 'cn', '*``cgn', {noremap = true})
-map('n', 'cN', '*``cgN', {noremap = true})
+map('n', 'cn', '*``cgn')
+map('n', 'cN', '*``cgN')
