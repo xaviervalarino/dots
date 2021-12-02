@@ -1,0 +1,34 @@
+{
+  "title": "Figma Enhancements",
+  "rules": [
+    {
+      "description": "Figma: CTRL + D → delete_forward",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^com\\.figma\\.Desktop$"
+              ]
+            }
+          ],
+          "from": {
+            "key_code": "d",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_forward"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
